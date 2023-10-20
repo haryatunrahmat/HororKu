@@ -77,11 +77,7 @@ fun ProyekHoror() {
                 Column(
                     modifier = Modifier.align(Alignment.Center)
                 ) {
-//                    Text(
-//                        text = artworks[currentImageIndex].title,
-//                        fontSize = 24.sp,
-//                        color = Color.White
-//                    )
+                    // Tambahkan teks judul di sini
                 }
             }
 
@@ -159,15 +155,6 @@ fun ProyekHoror() {
                                 "Tahun Rilis : 2023\n" +
                                 "Durasi : 1 jam 11 menit\n" +
                                 "Deskripsi Film:\n" +
-                                "\"Perjanjian Gaib\" adalah film horor yang mengisahkan tentang sebuah perjanjian supernatural " +
-                                "yang melibatkan kekuatan gaib. Ketika seorang karakter utama menemukan dirinya terperangkap dalam perjanjian ini, " +
-                                "ia harus mencari cara untuk memutuskannya sebelum malapetaka terjadi. " +
-                                "Film ini menggabungkan elemen horor supernatural dengan ketegangan psikologis untuk menciptakan pengalaman menakutkan."
-
-                        4 ->  "Judul Film : Sewu Dino\n" +
-                                "Tahun Rilis : 2023\n" +
-                                "Durasi : 1 jam 11 menit\n" +
-                                "Deskripsi Film:\n" +
                                 "\"Asih 2\" adalah sekuel dari film horor Indonesia yang terkenal, Asih. " +
                                 "Film ini dirilis pada tahun 2023 dan mengisahkan kelanjutan kisah horor asal Indonesia yang menyeramkan. " +
                                 "Cerita film berpusat pada karakter Asih, seorang makhluk gaib yang menghantui orang-orang. " + "Di sekuel ini, " +
@@ -176,12 +163,20 @@ fun ProyekHoror() {
                                 "dan mereka berusaha mencari cara untuk menghentikannya. " +
                                 "Film ini menyajikan suasana yang mencekam dan kisah yang seram, dan akan memuaskan para penggemar genre horor."
 
-                        else ->""
+                        4 ->  "Judul Film : Sewu Dino\n" +
+                                "Tahun Rilis : 2023\n" +
+                                "Durasi : 1 jam 11 menit\n" +
+                                "Deskripsi Film:\n" +
+                                "\"Sewu Dino\" adalah sebuah film horor yang dirilis pada tahun 2023. Film ini menghadirkan pengalaman horor yang memacu adrenalin dan penuh misteri.\n" +
+                                "Cerita film \"Sewu Dino\" berkisah tentang sebuah desa terpencil yang menjadi tempat terjadinya serangkaian peristiwa gaib dan misterius. " +
+                                "Seorang penyelidik paranormal datang ke desa tersebut untuk mengungkap kebenaran di balik kejadian-kejadian supernatural. " +
+                                "Ketika dia mulai menjelajahi desa tersebut, dia menemukan bahwa cerita-cerita horor yang beredar bukanlah sekadar mitos belaka. " +
+                                "Film ini menghadirkan ketegangan yang memuncak, ketakutan, dan rahasia yang menggelitik."
+                        else -> ""
                     },
                     modifier = Modifier.padding(8.dp)
                 )
             }
-
         }
     }
 }
